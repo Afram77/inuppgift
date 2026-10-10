@@ -3,10 +3,13 @@ package uppgift;
 import java.util.Scanner;
 
 public class main3000 {
+
     public static void main(String[] args) {
 
+        //Skapar ett object
         TextCounter counter = new TextCounter();
 
+        //Skapar en Scanner och läser in text från användaren
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Skriv valfri text. Skriv stop när du är klar.");
@@ -24,6 +27,8 @@ public class main3000 {
         System.out.println("Antal tecken: " + counter.getLetters());
         System.out.println("Antal ord: " + counter.getWordCount());
         System.out.println("Längsta ordet: " + counter.getLongestWord());
+        System.out.println("Loopen har nu stannat.");
+        //System.out.println("Loopen har nu stannat. " + counter.hasStopp());
 
         scan.close();
     }

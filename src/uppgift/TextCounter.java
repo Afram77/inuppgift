@@ -19,7 +19,6 @@ public class TextCounter {
         this.longestWord = "";
         this.stopp = false;
     }
-
     //Tar emot text från användaren
     public void count(String text) {
 
