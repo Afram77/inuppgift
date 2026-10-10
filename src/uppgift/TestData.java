@@ -7,7 +7,7 @@ import static org.junit.Assert.assertEquals;
 public class TestData {
 
   @Test
-    public void testCount5Row() {
+    public void Count5Row() {
     //Testar 5 rader
 
     //Skapar ett object
@@ -30,7 +30,7 @@ public class TestData {
   }
 
   @Test
-  public void testCount14Letters() {
+  public void Count14Letters() {
     //Testar 14 tecken
 
     //Skapar ett object
@@ -50,7 +50,7 @@ public class TestData {
   }
 
   @Test
-  public void testCount4Words() {
+  public void Count4Words() {
     //Testar 4 ord
 
     TextCounter counter = new TextCounter();
@@ -64,7 +64,7 @@ public class TestData {
   }
 
   @Test
-  public void testLongestWord() {
+  public void LongestWord() {
     //Testar längsta ordet
 
     TextCounter counter = new TextCounter();
@@ -78,7 +78,7 @@ public class TestData {
   }
 
   @Test
-  public void testStop() {
+  public void Stop() {
     //Testar stop
 
     TextCounter counter = new TextCounter();
