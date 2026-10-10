@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class main3000 {
 
+    //Startpunkt
     public static void main(String[] args) {
 
         //Skapar ett object
