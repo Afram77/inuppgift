@@ -10,7 +10,7 @@ public class TestData {
     public void Count5Row() {
     //Testar 5 rader
 
-    //Skapar ett object
+    //Skapar ett objekt för att räkna texten
     TextCounter counter = new TextCounter();
 
     //5 vars loop
@@ -33,7 +33,7 @@ public class TestData {
   public void Count14Letters() {
     //Testar 14 tecken
 
-    //Skapar ett object
+    //Skapar ett objekt för att räkna texten
     TextCounter counter = new TextCounter();
 
     //Skickar test texten till räknaren

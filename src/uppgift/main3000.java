@@ -7,7 +7,7 @@ public class main3000 {
     //Startpunkt
     public static void main(String[] args) {
 
-        //Skapar ett object
+        //Skapar ett objekt
         TextCounter counter = new TextCounter();
 
         //Skapar en Scanner och läser in text från användaren
